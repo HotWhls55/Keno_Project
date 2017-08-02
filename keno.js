@@ -6,6 +6,7 @@
 //              Function List:
 //                  randomNumberPicker - .
 //
+// Changing Something August 2nd, 2017
 //***************************************************************
 
 var pickedNumbers = [];
@@ -30,9 +31,9 @@ function beginPicking() {
                 }
             })(i), i * 3000)
     }
-    
+
 //    rePick();
-    
+
 }
 
 //function rePick() {
@@ -43,10 +44,10 @@ function beginPicking() {
 
 function shuffler (allNumbers) {
     var m = allNumbers.length, t, i;
-    
+
     while (m) {
         i = Math.floor(Math.random() * m--);
-        
+
         t = allNumbers[m];
         allNumbers[m] = allNumbers[i];
         allNumbers[i] = t;
