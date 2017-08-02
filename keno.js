@@ -7,7 +7,8 @@
 //                  randomNumberPicker - .
 //
 // Changing Something August 2nd, 2017
-// Removed somethin changed, to test fetching from master
+// Removed something changed, to test fetching from master
+// typo fixed under new_test_branch
 //***************************************************************
 
 var pickedNumbers = [];
